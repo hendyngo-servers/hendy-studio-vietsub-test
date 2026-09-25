@@ -1,0 +1,5 @@
+.app-container {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr var(--right-panel-width);
+  grid-template-rows: auto 1fr var(--timeline-height);
+}
